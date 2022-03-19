@@ -1,38 +1,69 @@
-.App {
+body {
+  background: rgb(21, 21, 21)
+
+}
+
+header {
   text-align: center;
+  width: 300px;
+  padding: 7px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-bottom: 14px;
+  background-color: rgb(46, 48, 48);
+  border-radius: 35px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  width: 310px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.list-btn {
+  border-radius: 14px;
+  color:aliceblue;
+  background-color: rgb(37, 37, 37);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.delete-btn {
+  border-radius: 14px;
+  color:aliceblue;
+  background-color: crimson;
+}
+.buttons {
   display: flex;
-  flex-direction: column;
+  justify-content: space-around;
+  padding: 4px;
+
+}
+
+.task-done {
+  color:#959595;
+  text-decoration: line-through;
+  
+}
+
+.task-list {
+  background-color: #4c4c4d;
+  margin-top: 10px;
+  height: fit-content;
+  width: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  border-radius: 14px;
 }
 
-.App-link {
-  color: #61dafb;
+.list-item {
+  padding: 7px;
+  height: fit-content;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.app {
+  height: auto;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  color: #ffffff;
   }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
